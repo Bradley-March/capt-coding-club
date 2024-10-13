@@ -1,6 +1,5 @@
-# capt-coding-club
-
 # CAPT Coding Club (CCC) Repository
+
 Welcome to the ***CAPT Coding Club (CCC)*** repository! This repo will serve as a central place for storing all the resources, files, and test code that we use throughout our coding club sessions.
 
 ## About the CCC
@@ -13,18 +12,21 @@ A range of topics has been proposed by members, and we plan to cover these over 
 - GitHub
 - VSCode
 - SSH 
-- Connecting and using captain
-- Coding standards
-- Making NumPy fast
-- Making Matplotlib pretty
-- Astropy (opening catalogues / .fits files)
-- Pandas / Data science / Machine learning
-- MCMC sampling / Bayesian inference
-- Methods/resources to learn new languages (e.g. C++)
+- Connecting and Using captain
+- Coding Standards
+- Making NumPy Fast
+- Making Matplotlib Pretty
+- Astropy (Opening Catalogues and .fits Files)
+- Pandas / Data Science / Machine Learning
+- MCMC Sampling / Bayesian Inference
+- Methods/Resources to Learn New Languages (e.g. C++)
 - Mathematica 
-- How does code *actually* work
-- Coding for industry
+- How Does Code *Actually* Work 
+- Coding for Industry
+- Optimisation / Parallelisation
 
-If you wish to suggest more topics please bring this up at the next CCC or email me below!
+We will choose the topic for the following week at the end of each session.
 
-### *For access or permissions please contact bradley.march@nottingham.ac.uk*
+*If you wish to suggest more topics, please bring this up at the next CCC or email me below!*
+
+### For access or permissions, please contact: [bradley.march@nottingham.ac.uk](mailto:bradley.march@nottingham.ac.uk)
