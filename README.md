@@ -24,6 +24,7 @@ A range of topics has been proposed by members, and we plan to cover these over 
 - How Does Code *Actually* Work 
 - Coding for Industry
 - Optimisation / Parallelisation
+- Jupyter Notebooks -> nbdev
 
 We will choose the topic for the following week at the end of each session.
 
