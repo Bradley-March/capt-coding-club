@@ -1,0 +1,7 @@
+{
+ "editor.wordWrap": "on",
+
+ "[python]": {
+   "editor.rulers": [80]
+ }
+}
