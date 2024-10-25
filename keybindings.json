@@ -1,0 +1,73 @@
+// Place your key bindings in this file to override the defaults
+[
+   {
+       "key": "f4",
+       "command": "jupyter.createnewinteractive"
+   },
+   {
+       "key": "f5",
+       "command": "-workbench.action.debug.continue",
+       "when": "debugState == 'stopped'"
+   },
+   {
+       "key": "f5",
+       "command": "-workbench.action.debug.start",
+       "when": "debuggersAvailable && debugState == 'inactive'"
+   },
+   {
+       "key": "f5",
+       "command": "-debug.openView",
+       "when": "!debuggersAvailable"
+   },
+   {
+       "key": "f5",
+       "command": "jupyter.runFileInteractive"
+   },
+   {
+       "key": "f9",
+       "command": "-editor.debug.action.toggleBreakpoint",
+       "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
+   },
+   {
+       "key": "f9",
+       "command": "jupyter.execSelectionInteractive",
+       "when": "editorTextFocus && editorLangId == 'python'"
+   },
+   {
+       "key": "ctrl+d",
+       "command": "-editor.action.addSelectionToNextFindMatch",
+       "when": "editorFocus"
+   },
+   {
+       "key": "ctrl+d",
+       "command": "editor.action.deleteLines",
+       "when": "textInputFocus && !editorReadonly"
+   },
+   {
+       "key": "ctrl+shift+k",
+       "command": "-editor.action.deleteLines",
+       "when": "textInputFocus && !editorReadonly"
+   },
+   {
+       "key": "shift+enter",
+       "command": "-interactive.execute",
+       "when": "config.interactiveWindow.executeWithShiftEnter && activeEditor == 'workbench.editor.interactive'"
+   },
+   {
+       "key": "ctrl+enter",
+       "command": "interactive.execute",
+       "when": "config.interactiveWindow.executeWithShiftEnter && activeEditor == 'workbench.editor.interactive'"
+   },
+   {
+       "key": "ctrl+alt+w",
+       "command": "jupyter.execSelectionInteractive",
+       "args": "import matplotlib.pyplot as plt; plt.close('all')",
+       "when": "editorTextFocus"
+   },
+   {
+       "key": "f5",
+       "command": "latex-workshop.build",
+       "when": "editorTextFocus && editorLangId == 'latex'"
+   }
+]
+
