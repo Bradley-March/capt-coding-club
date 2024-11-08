@@ -77,12 +77,31 @@ filtered_arr = arr[arr > 0.8]
 mean_filtered = np.mean(filtered_arr)
 print(f"Mean of values greater than 0.8: {mean_filtered}")
 
-# Using Masked Arrays
+# Note this will change the size of the array. This can become complicated if
+# you are for instance plotting the data and need to keep the same size.
+# In such an instance it is better to use a masked array.
+
+# %% Using Masked Arrays
+# (https://numpy.org/doc/stable/reference/maskedarray.generic.html)
 
 # Create a masked array
 masked_arr = ma.masked_array(arr, mask=arr <= 0.8)
 mean_masked = masked_arr.mean()
 print(f"Mean of masked array (values > 0.8): {mean_masked}")
+
+# Masked arrays also have some other cool features, like the ability to mask
+# invaid regions of an array (e.g. where the value is NaN)
+x = np.array([1, 2, np.nan, 4])
+y = np.array([1, np.inf, 3, 4])
+x, y = ma.masked_invalid(x), ma.masked_invalid(y)
+
+# and masks are applied element-wise for derived quantities
+print(x * y)
+
+# you can also call most numpy functions through the ma module
+z = np.array([-1, 0, 1, 2, 3, 4])
+print(ma.log10(z))
+
 
 # %% Using np.newaxis to Avoid For Loops
 # Example: Adding a 1D array to each row of a 2D array
