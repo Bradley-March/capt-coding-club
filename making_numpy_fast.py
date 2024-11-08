@@ -27,26 +27,26 @@ print(f"Time taken using time.time: {end_time - start_time} seconds")
 # %% Preallocating Memory
 
 
-def really_inefficient(N=1_000_000):
+def really_inefficient(N):
     result = np.array([])
     for i in range(N):
         result = np.append(result, i)
 
 
-def inefficient(N=1_000_000):
+def inefficient(N):
     result = []
     for i in range(N):
         result.append(i)
     result = np.array(result)
 
 
-def efficient(N=1_000_000):
+def efficient(N):
     result = np.zeros(N)
     for i in range(N):
         result[i] = i
 
 
-N = 1_000
+N = 1_000_000
 %timeit really_inefficient(N)
 %timeit inefficient(N)
 %timeit efficient(N)
@@ -85,7 +85,6 @@ mean_masked = masked_arr.mean()
 print(f"Mean of masked array (values > 0.8): {mean_masked}")
 
 # %% Using np.newaxis to Avoid For Loops
-
 # Example: Adding a 1D array to each row of a 2D array
 
 
@@ -105,8 +104,7 @@ arr_1d = np.random.rand(30)
 # Efficient way using np.newaxis
 %timeit arr_2d + arr_1d[np.newaxis, :]
 
-# %%
-
+# %% Using np.newaxis to Avoid For Loops
 # Example: Creating multiple NFW profiles at once
 
 
