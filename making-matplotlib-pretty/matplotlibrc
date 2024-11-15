@@ -376,8 +376,8 @@ ytick.left           : True   # draw ticks on the left side
 ytick.right          : True   # draw ticks on the right side
 ytick.major.size     : 8      # major tick size in points
 ytick.minor.size     : 4      # minor tick size in points
-ytick.major.width    : 0.8   # major tick width in points
-ytick.minor.width    : 0.8    # minor tick width in points
+ytick.major.width    : 1.0   # major tick width in points
+ytick.minor.width    : 1.0    # minor tick width in points
 #ytick.major.pad      : 3.5      # distance to major tick label in points
 #ytick.minor.pad      : 3.4      # distance to the minor tick label in points
 #ytick.color          : k      # color of the tick labels
