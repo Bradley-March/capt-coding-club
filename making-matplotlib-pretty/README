@@ -1,0 +1,7 @@
+matplotlibrc
+------------
+
+  You might have to change some things in the matplotlibrc file to get
+  it to work with your settings e.g. backend (depending on which
+  system you have) or text.latex.preamble (depending on your latex
+  install)
