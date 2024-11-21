@@ -27,6 +27,13 @@ Writing and running these as separate cells in Mathematica shows the following,
 
 ![Mathematica screenshot](mathematica-screenshot.png)
 
+Note that Mathematica starts counting at 1, not at 0 like Python. Note also that Mathematica stores the values of everything you have evaluted in memory, and this can cause some difficult-to-debug errors if you are not careful. To counter this, the following commands are very useful, 
+```Mathematica
+ClearAll[x]
+Quit[]
+```
+The former clears everything associated with the variable `x`, the latter "quits the kernel" and so clears everything.
+
 ## Documentation
 
 There are [docs online](https://reference.wolfram.com/language/), which can be accessed directly within Mathematica by hovering over the unknown element, or by clicking on Help. There is also a [Mathematica Stack Exchange](https://mathematica.stackexchange.com/).
