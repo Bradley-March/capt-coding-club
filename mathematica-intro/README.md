@@ -32,11 +32,11 @@ Note that Mathematica starts counting at 1, not at 0 like Python. Note also that
 ClearAll[x]
 Quit[]
 ```
-The former clears everything associated with the variable `x`, the latter "quits the kernel" and so clears everything.
+The former clears what is associated with the variable `x`, the latter "quits the kernel" and so clears everything.
 
 ## Documentation
 
-There are [docs online](https://reference.wolfram.com/language/), which can be accessed directly within Mathematica by hovering over the unknown element, or by clicking on Help. There is also a [Mathematica Stack Exchange](https://mathematica.stackexchange.com/).
+There are [docs online](https://reference.wolfram.com/language/), which can be accessed directly within Mathematica by hovering over the unknown element, or by clicking on Help. There is also a [Mathematica Stack Exchange](https://mathematica.stackexchange.com/), and on arXiv a helpful resource called [Using Mathematica for Quantum Mechanics: A Student's Manual](https://arxiv.org/abs/1403.7050).
 
 ## Examples
 
