@@ -19,7 +19,7 @@ A range of topics has been proposed by members, and we plan to cover these over 
 - Astropy (Opening Catalogues and .fits Files)
 - Pandas / Data Science / Machine Learning
 - MCMC Sampling / Bayesian Inference
-- Methods/Resources to Learn New Languages (e.g. C++)
+- Methods/Resources to Learn New Languages (e.g. C++): [Learn X in Y minutes](https://learnxinyminutes.com/)
 - Mathematica 
 - How Does Code *Actually* Work 
 - Coding for Industry
